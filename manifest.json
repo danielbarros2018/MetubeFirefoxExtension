@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "action": {},
+    "name": "MeTubeDownloader",
+    "version": "1.0.0",
+    "description": "Send Youtube link to Metube downloader in CasaOS",
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "permissions": ["tabs"],
+    "host_permissions": [
+        "<all_urls>",
+        "http://192.168.1.2/*"
+    ],
+    "background": {
+        "scripts": ["scripts/main.js"]
+    }
+}
